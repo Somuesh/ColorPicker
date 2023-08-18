@@ -1,0 +1,27 @@
+.flex-container{
+    border: 2px solid black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.item{
+    border: 2px solid orange;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.item1{
+    flex-grow: 2;
+    flex-shrink: 100%;
+}
+
+.item2{
+    flex-grow:2;
+    flex-shrink: 50%;
+}
